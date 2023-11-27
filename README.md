@@ -4,7 +4,7 @@ A new Flutter project just for dummy example app for demo `release_scrip.sh`.
 
 ## Release Script
 
-In Expense Management, usually we create a `release branch` and `release tag` manually.
+In developing a project, sometimes we create a `release branch` and `release tag` manually.
 For example, we want to release `example-1.5.0`. Before creating a `release tag`, we must checkout
 a new branch called `release/example-1.5` from `TRUNK_BRANCH`, and then bump the version
 from that branch, and then finally can create a new tag `example-1.5.0`.
